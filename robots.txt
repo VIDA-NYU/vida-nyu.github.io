@@ -1,0 +1,4 @@
+Sitemap: https://vida-nyu.github.io/sitemapindex.xml
+
+User-Agent: *
+Host: vida-nyu.github.io
