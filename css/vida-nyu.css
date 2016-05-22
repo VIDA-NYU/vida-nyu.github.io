@@ -1,0 +1,72 @@
+/* Overwrites default values of the theme Freelancer (freelancer.css) */
+
+.color-primary-0 { background-color: #58068C }	/* Main Primary color */
+.color-primary-1 { background-color: #812EB6 }
+.color-primary-2 { background-color: #7009B2 }
+.color-primary-3 { background-color: #470472 }
+.color-primary-4 { background-color: #350255 }
+
+body {
+    color: #470472;
+}
+hr.star-primary {
+    border-color: #470472;
+}
+hr.star-primary:after {
+    color: #470472;
+}
+
+.navbar-default {
+    background-color: #350255;
+}
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+    color: #d11255;
+}
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+    color: #d11255;
+}
+
+header {
+    background: #470472;
+}
+
+hr.star-light:after {
+    color: #fff;
+    background-color: #470472;
+}
+
+section.success {
+    background: #470472;
+}
+section.success a {
+  color: #fff;
+}
+section.success a:hover, section.success a:focus, section.success a:active, section.success a.active {
+    color: #d11255;
+}
+
+#portfolio .portfolio-item .portfolio-link .caption {
+    background-color: #470472;
+    border-radius: 50%;
+}
+#portfolio .portfolio-item .portfolio-link {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    max-width: 240px;
+}
+
+footer .footer-above {
+    background-color: #470472;
+}
+footer .footer-below {
+    background-color: #350255;
+}
+
+a, a:hover, a:focus, a:active, a.active {
+    outline: 0;
+    color: #d11255;
+}
+.btn-outline:hover, .btn-outline:focus, .btn-outline:active, .btn-outline.active {
+    color: #d11255;
+}
